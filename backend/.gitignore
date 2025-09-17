@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+backend/apienv
+
+
+# Packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Env & config
+.env
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
